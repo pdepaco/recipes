@@ -1,0 +1,111 @@
+:root {
+    --main-color: #D1A754;
+}
+
+body {
+    font-family: 'Montserrat', sans-serif;
+    margin: auto;
+    width: 650px;
+}
+
+#cover-recipe {
+    max-width: 650px;
+    margin-bottom: 48px;
+}
+
+h1 {
+    color: var(--main-color);
+    font-family: 'Playfair Display', serif;
+    font-weight: 700;
+    font-size:36px;
+    text-align: center;
+    font-style: italic;
+    text-transform: uppercase;
+}
+
+h2 {
+    font-family: 'Playfair Display', serif;
+    font-weight: 700;
+    font-size: 1.5rem;
+    font-style: italic;
+}
+
+p {
+    font-size: 1.25rem;
+    line-height: 2rem;
+    margin-bottom: 3rem;
+}
+
+ul, ol {
+    font-size: 1.25rem;
+    line-height: 2rem;
+    margin-bottom: 5rem;
+}
+
+a {
+    color: var(--main-color);
+    text-decoration: none;
+}
+
+button {
+    background: #D1A754;
+    width: 100%;
+    padding: 16px;
+    border-radius: 8px;
+    border: 0;
+}
+
+button:hover {
+    background-color: #ad822c;
+}
+
+button a {
+    color: white;
+}
+
+.navButton {
+    width: 200px;
+}
+
+.like-btn {
+    width: 300px;
+    margin: auto;
+    padding-left: 1rem;
+    padding-right: 1rem;
+    border-radius: 4px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin-bottom: 3rem;
+}
+
+.like-field {
+    border: none;
+    width: 100%;
+}
+
+.like-gif {
+    border: none;
+    width: 20%;
+    margin-left: 1rem;
+}
+
+.next-btn {
+    width: 200px;
+    margin: auto;
+    margin-bottom: 5rem;
+}
+
+.instructions {
+    margin: auto;
+    width: 300px;
+}
+
+.instructions img {
+    width: 300px;
+}
+
+hr {
+    background-color: wite;
+    border-top: 4px dashed var(--main-color);
+}
